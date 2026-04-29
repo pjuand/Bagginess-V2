@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.gemini/
+.claude/
+.env
+venv/
+.vscode/
+
+# Models and data (large files)
+*.pkl
+# Keep configuration and small JSONs if necessary, but usually better to exclude data
+# For now, I'll exclude the specific data files I saw
+train_info.json
+json_info.json
+uploaded_model.json
+model_bagginess.pkl
